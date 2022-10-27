@@ -1,0 +1,104 @@
+
+Pregunta 1
+
+Escriba un programa en Python que acepte el perímetro de un círculo que escriba un usuario.
+
+Finalmente el programa debe imprimir:
+
+    El valor de π con 7 decimales.
+    El valor del área de dicho círculo (con 3 decimales)
+     así como el valor del radio de dicho círculo (con 2 decimales).
+
+Pistas
+
+    En geometría, el área encerrada por un círculo de radio r es π*r^2.
+    Del módulo math obtenga el valor de π para los cálculos que requiera.
+    La letra griega π representa una constante, que es igual a la relación entre la circunferencia de cualquier círculo y su diámetro.
+
+Pregunta 2
+
+El presente ejercicio se enfoca en la manipulación de fechas utilizando datetime (Documentación oficial)
+
+Explore la documentación y escriba un programa 
+Python para mostrar la fecha y la hora actuales bajo los siguientes formatos de ejemplo 
+(imaginando hoy fuese 10 de septiembre del 2022):
+
+10-09-22
+10-09-2022
+Hoy día es Saturday
+10~09~2022
+10-09-2022 14:20:51
+
+En caso obtengan Hoy día es Sábado no habría problema alguno, no se evaluará lo referente a los idiomas.
+
+Es importante mencionar que la exploración de la documentación es importante sobretodo cuando le toque explorar de un paquete que no sea popular
+
+
+Pregunta 3
+
+Escriba un programa de Python para listar todos los archivos en un directorio en Python. (por precaución que sea en una carpeta temporal y que no contenga archivos importantes, coloque copias)
+Pregunta 4
+
+Sin usar bibliotecas como pandas.
+
+Generar un archivo local con el contenido del siguiente archivo:
+
+https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv
+
+Utilizando import csv
+
+Calcular:
+
+    El promedio de edad.
+    La distribución del sexo (número de mujeres vs varones).
+    El número de sobrevivientes y fallecidos.
+
+Pregunta 5
+
+Escriba un programa en Python para calcular el número de días entre dos fechas. No es necesario que use inputs para el ingreso de las fechas.
+Pregunta 6
+
+Crear el archivo ejemplo.csv copiando el contenido del siguiente archivo: https://pastebin.com/gumjjcpx
+
+QuotaAmount,StartDate,OwnerName,Username
+150000,2016-01-01,Chris Riley,trailhead9.ub20k5i9t8ou@example.com
+167400,2016-02-01,Chris Riley,trailhead9.ub20k5i9t8ou@example.com
+155000,2016-03-01,Chris Riley,trailhead9.ub20k5i9t8ou@example.com
+132000,2016-01-01,Harold Campbell,trailhead14.jibpbwvuy67t@example.com
+200000,2016-02-01,Harold Campbell,trailhead14.jibpbwvuy67t@example.com
+180000,2016-03-01,Harold Campbell,trailhead14.jibpbwvuy67t@example.com
+110000,2016-01-01,Jessica Nichols,trailhead19.d1fxj2goytkp@example.com
+100000,2016-02-01,Jessica Nichols,trailhead19.d1fxj2goytkp@example.com
+145000,2016-03-01,Jessica Nichols,trailhead19.d1fxj2goytkp@example.com
+135000,2016-01-01,Catherine Brown,trailhead16.kojyepokybge@example.com
+145000,2016-02-01,Catherine Brown,trailhead16.kojyepokybge@example.com
+180000,2016-03-01,Catherine Brown,trailhead16.kojyepokybge@example.com
+190000,2016-01-01,Kelly Frazier,trailhead7.zdcsy4ax10mr@example.com
+200000,2016-02-01,Kelly Frazier,trailhead7.zdcsy4ax10mr@example.com
+100000,2016-03-01,Kelly Frazier,trailhead7.zdcsy4ax10mr@example.com
+110000,2016-01-01,Dennis Howard,trailhead4.wfokpckfroxp@example.com
+115000,2016-02-01,Dennis Howard,trailhead4.wfokpckfroxp@example.com
+125000,2016-03-01,Dennis Howard,trailhead4.wfokpckfroxp@example.com
+
+Desarrolle un función que lea el archivo y que de la columna QuotaAmount, calcule el promedio de los valores para luego retornarlo.
+Pregunta 7
+
+Del ejercicio anterior cree dos pruebas unitarias (use unittest), una que compare el valor de retorno con "146633.33" y el otro con "15000", ambos test deben dar "Ok" como salida.
+
+Recuerde usar la palabra "test" al inicio de cada función con su prueba.
+Pregunta 8
+
+Obtenemos prácticas en una laboratorio de una universidad y nos solicitan implementar de un paper la siguiente expresión matemática:
+
+Siendo:
+
+    e la constante de Euler
+    log es logaritmo
+    cos es el coseno
+
+Pregunta 9
+
+    Recolectar los feriados del 2022.
+
+    Al ingresar una fecha inicial y días hábiles Generar un código que permita encontrar la fecha siguiente sin considerar fines de semana (sábado y domingo) ni feriados.
+
